@@ -120,19 +120,19 @@
   }
 
   ::selection {
-    background: hsl(30, 95%, 55%);
-    color: hsl(0, 0%, 100%);
+    background: hsl(0 0% 0%);
+    color: hsl(0 0% 100%);
   }
 
   ::-webkit-scrollbar {
     width: 12px;
   }
   ::-webkit-scrollbar-track {
-    background: hsl(270, 60%, 30%);
+    background: hsl(320 60% 40%);
   }
   ::-webkit-scrollbar-thumb {
-    background: hsl(30, 95%, 55%);
-    border: 2px solid hsl(270, 60%, 30%);
+    background: hsl(0 0% 0%);
+    border: 2px solid hsl(320 60% 40%);
   }
 }
 
@@ -142,19 +142,19 @@
   }
 
   .brutalist-shadow {
-    box-shadow: 8px 8px 0px 0px hsl(270 60% 20%);
+    box-shadow: 8px 8px 0px 0px hsl(0 0% 0%);
   }
 
   .brutalist-shadow-sm {
-    box-shadow: 4px 4px 0px 0px hsl(270 60% 20%);
+    box-shadow: 4px 4px 0px 0px hsl(0 0% 0%);
   }
 
   .brutalist-shadow-hover {
-    box-shadow: 8px 8px 0px 0px hsl(270 60% 20%);
+    box-shadow: 8px 8px 0px 0px hsl(0 0% 0%);
     transition: all 0.15s ease;
   }
   .brutalist-shadow-hover:hover {
-    box-shadow: 12px 12px 0px 0px hsl(270 60% 20%);
+    box-shadow: 12px 12px 0px 0px hsl(0 0% 0%);
     transform: translate(-4px, -4px);
   }
 
