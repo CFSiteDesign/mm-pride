@@ -21,7 +21,7 @@ const PropertySelector = () => {
       <ScatteredStars />
       <div className="px-4 md:px-16 max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-8xl font-black uppercase mb-6 md:mb-8 text-foreground text-center md:text-left leading-none">
-          Pick your<br className="md:hidden" /> Fiesta<br />session
+          Pick your<br className="md:hidden" /> Pride<br />party
         </h2>
 
         <div className="sticky top-0 z-20 bg-background py-3 md:py-4">
@@ -63,7 +63,7 @@ const PropertySelector = () => {
                     {prop.country}
                   </span>
                    <span className="text-secondary font-black uppercase text-xs animate-pulse">
-                    🌮 FIESTA ACCESS
+                    🏳️‍🌈 PRIDE ACCESS
                   </span>
                 </div>
                 <h3 className="text-2xl md:text-3xl font-black uppercase mb-6 md:mb-12 flex-grow whitespace-nowrap overflow-hidden text-ellipsis group-hover:text-primary transition-colors">
@@ -76,7 +76,7 @@ const PropertySelector = () => {
                     rel="noopener noreferrer"
                     className="block w-full text-center bg-primary text-primary-foreground font-black uppercase py-3 md:py-4 border-2 border-border text-sm md:text-base hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
                   >
-                    GET ACCESS 🌮
+                    GET ACCESS 🏳️‍🌈
                   </a>
                 ) : (
                   <span className="block w-full text-center bg-muted text-muted-foreground font-black uppercase py-3 md:py-4 border-2 border-border text-sm md:text-base cursor-not-allowed">
