@@ -20,7 +20,7 @@ const PropertySelector = () => {
     <section id="selector" className="relative py-12 md:py-24 overflow-hidden" style={{ backgroundColor: '#7CFC00' }}>
       <ScatteredStars />
       <div className="px-4 md:px-16 max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-8xl font-black uppercase mb-6 md:mb-8 text-foreground text-center md:text-left leading-none">
+        <h2 className="text-3xl md:text-8xl font-black uppercase mb-6 md:mb-8 text-center md:text-left leading-none bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
           Pick your<br className="md:hidden" /> Pride<br />party
         </h2>
 
