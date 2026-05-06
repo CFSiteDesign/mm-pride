@@ -75,7 +75,7 @@ const DamageCard = ({ card }: { card: typeof CARDS[number] }) => {
 
 const DamageSection = () => {
   return (
-    <section className="relative py-12 md:py-24 px-4 md:px-16 bg-primary border-b-4 border-divider overflow-visible">
+    <section className="relative py-12 md:py-24 px-4 md:px-16 border-b-4 border-divider overflow-visible" style={{ backgroundColor: '#00B4D8' }}>
       <h2 className="text-4xl md:text-8xl font-black uppercase text-center mb-8 md:mb-16 text-primary-foreground leading-none tracking-tighter">
         Cheers Queers
       </h2>

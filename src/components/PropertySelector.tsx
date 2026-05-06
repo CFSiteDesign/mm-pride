@@ -17,7 +17,7 @@ const PropertySelector = () => {
   }, [filter, searchTerm]);
 
   return (
-    <section id="selector" className="relative py-12 md:py-24 bg-background overflow-hidden">
+    <section id="selector" className="relative py-12 md:py-24 overflow-hidden" style={{ backgroundColor: '#7CFC00' }}>
       <ScatteredStars />
       <div className="px-4 md:px-16 max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-8xl font-black uppercase mb-6 md:mb-8 text-foreground text-center md:text-left leading-none">

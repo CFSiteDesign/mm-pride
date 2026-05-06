@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="relative z-10 w-full min-h-[100svh] md:min-h-[85vh] flex flex-col md:flex-row border-b-4 border-divider overflow-visible">
       <ScatteredStars />
       {/* Left - Text */}
-      <div className="flex-1 bg-background px-5 pt-2 pb-6 md:p-12 flex flex-col justify-center items-start border-b-4 md:border-b-0 md:border-r-4 border-divider relative">
+      <div className="flex-1 px-5 pt-2 pb-6 md:p-12 flex flex-col justify-center items-start border-b-4 md:border-b-0 md:border-r-4 border-divider relative" style={{ backgroundColor: '#FF3D8B' }}>
         <img src={madMonkeyLogo} alt="Mad Monkey" className="w-28 md:w-40 mb-3 md:mb-4 z-10" style={{ filter: 'drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white)' }} />
         <div className="mb-0 inline-flex items-center gap-2 bg-primary text-primary-foreground font-black uppercase px-4 py-2 text-xs md:text-lg border-2 border-primary -rotate-2 z-20 rounded-sm" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>
           All June — 2026
@@ -34,7 +34,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right - Image */}
-      <div className="flex-1 bg-background relative flex items-center justify-center min-h-[300px] md:min-h-[400px]">
+      <div className="flex-1 relative flex items-center justify-center min-h-[300px] md:min-h-[400px]" style={{ backgroundColor: '#FFD60A' }}>
         <div className="relative w-4/5 aspect-square md:aspect-auto md:h-4/5 flex items-center justify-center">
           <img
             src={heroImage}

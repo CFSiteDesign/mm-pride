@@ -2,7 +2,7 @@ import madMonkeyLogo from "@/assets/mad-monkey-logo.png";
 
 const FooterSection = () => {
   return (
-    <footer className="bg-card text-foreground py-8 md:py-12 px-4 md:px-16 border-t-4 border-divider">
+    <footer className="text-foreground py-8 md:py-12 px-4 md:px-16 border-t-4 border-divider" style={{ backgroundColor: '#9B5DE5' }}>
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-6 md:gap-8">
         <img
           src={madMonkeyLogo}
