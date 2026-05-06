@@ -19,7 +19,7 @@ const HeroSection = () => {
           alt="Happy Pride Month"
           className="w-full max-w-md md:max-w-lg -mt-4 md:-mt-6 -mb-4 md:-mb-8 z-10 drop-shadow-lg"
         />
-        <p className="text-[13px] md:text-2xl font-bold mb-6 md:mb-10 max-w-xl leading-relaxed z-10">
+        <p className="text-[13px] md:text-2xl font-bold mb-6 md:mb-10 max-w-xl leading-relaxed z-10 text-white">
           Drag queens slaying, glitter raining,<br />
           Rainbow shots, no one's complaining.<br />
           Queer quiz fire, dance floor's heaven,<br />
