@@ -3,27 +3,23 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const FAQS = [
   {
     q: "What's included in the ticket?",
-    a: "Entry to your local Mad Monkey Pride party — drag show, queer quiz, and access to the Pride drink deals. Every hostel runs Pride a little differently, so check your location's lineup before booking.",
-  },
-  {
-    q: "Is this event for everyone?",
-    a: "Hell yes. Pride is for queers, allies, and everyone in between. Come as you are, bring your people, leave the bigotry at the door. This is a safe, glittery, all-in space.",
+    a: "Entry to the main event at your chosen Mad Monkey. Just a heads up: check the specific event details for your location before you buy. Every Mad Monkey does things a little differently — for example, a few spots might swap the boat party for something else equally wild depending on the local setup.",
   },
   {
     q: "What if I'm already staying at Mad Monkey?",
-    a: "Love that for you — shortest commute home. But your bed doesn't get you in. You'll still need a ticket for the wristband, drag show seating and drink deals. Don't be the person napping while the dorm is downstairs lip-syncing.",
+    a: "Love that for you — you've already got the shortest commute home. But your bed doesn't get you into the party. You'll still need a ticket to get your wristband for the free-flow, and other event highlights like the pub crawl and the boat party. Don't be that person sitting in a quiet dorm alone while the rest of the hostel is going mental downstairs.",
   },
   {
-    q: "How long does the party go?",
-    a: "Drag show kicks off early evening, queer quiz mid-night, dance floor and drink deals running until the bar shuts. Pace yourself — Pride is a marathon, not a sprint.",
+    q: "How long is the DJ playing?",
+    a: "We're going hard from the jump! Our DJs will be dropping sets right up until the bar closes. We're packing all that 15th Birthday energy into one massive session, so make sure you're front and center early — once the bar shuts, the music stops, and we all head out (or pass out).",
   },
   {
     q: "Can I book multiple locations?",
-    a: "Pride runs all month, so technically yes — chase the rainbow across the region. But each ticket is for one specific party at one specific hostel. Pick your spot and commit.",
+    a: "We love the energy, but physics is a hater. These parties are all happening on the same night, so you can't exactly be in two places at once. Pick the Mad Monkey you want to be at on Saturday 27 June and commit!",
   },
   {
     q: "Refund policy?",
-    a: "No refunds, but tickets are fully transferable. Can't make it? Pass it to a mate and let them have the glittery night of their life instead.",
+    a: "No refunds, but the tickets are fully transferable. If you can't make it, don't stress — just pass your ticket to a mate and let them have the night of their life instead.",
   },
 ];
 
