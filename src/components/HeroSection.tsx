@@ -20,10 +20,10 @@ const HeroSection = () => {
           className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl -mt-4 md:-mt-6 -mb-4 md:-mb-8 z-10 drop-shadow-lg md:mx-auto md:self-center"
         />
         <p className="text-[13px] md:text-2xl font-bold mb-6 md:mb-10 max-w-xl leading-relaxed z-10 text-white">
-          Glitter on fleek, backpack light,<br />
-          Wrong turns that feel exactly right.<br />
-          Drag show fire, dance floor heaven,<br />
-          Mad Monkey Pride — all in, eleven out of ten.
+          Hostel halls at 3AM,<br />
+          Someone's kissed a stranger — amen.<br />
+          Rooftop chaos, no last call,<br />
+          Mad Monkey Pride — we do it all.
         </p>
         <a
           href="#selector"
