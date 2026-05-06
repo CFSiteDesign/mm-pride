@@ -1,28 +1,28 @@
 import { useEffect, useRef, useState } from "react";
-import cardFreeflow from "@/assets/card-freeflow-cdm.jpg";
-import cardDjs from "@/assets/card-djs-cdm.jpg";
-import cardFiestaFeast from "@/assets/card-fiesta-feast.jpg";
+import cardDrag from "@/assets/card-dragshow.jpg";
+import cardQuiz from "@/assets/card-queerquiz.jpg";
+import cardDrinks from "@/assets/card-drinkdeals.jpg";
 
 const CARDS = [
   {
-    image: cardFreeflow,
-    title: "Free Flow",
-    description: "3 hours of free-flow fuel. Tequila, margaritas, cerveza — we're pouring, you're roaring.",
-    badge: "Limited Tickets",
+    image: cardDrag,
+    title: "Drag Show",
+    description: "Lashes long, heels higher. Local queens lip-syncing for their lives — and yours.",
+    badge: "Headline Act",
     rotation: "rotate-2",
   },
   {
-    image: cardDjs,
-    title: "Live DJs",
-    description: "Fiesta beats all day. Latin bangers, reggaeton, and filthy drops — no siesta on the decks.",
-    badge: "All Day",
+    image: cardQuiz,
+    title: "Queer Quiz",
+    description: "Pop culture, icons, and unhinged Pride trivia. Rally your team and lift the rainbow trophy.",
+    badge: "Big Prizes",
     rotation: "-rotate-2",
   },
   {
-    image: cardFiestaFeast,
-    title: "Mexican Fiesta Feast",
-    description: "A full-blown Mexican feast. Tacos, nachos, and all the fiesta flavours you can handle.",
-    badge: "All In",
+    image: cardDrinks,
+    title: "Drink Deals",
+    description: "Rainbow shots, glittery cocktails, and 2-for-1 specials. Hydrate (loosely).",
+    badge: "All Night",
     rotation: "-rotate-1",
   },
 ];
@@ -77,7 +77,7 @@ const DamageSection = () => {
   return (
     <section className="relative py-12 md:py-24 px-4 md:px-16 bg-primary border-b-4 border-divider overflow-visible">
       <h2 className="text-4xl md:text-8xl font-black uppercase text-center mb-8 md:mb-16 text-primary-foreground leading-none tracking-tighter">
-        One Day of Fiesta
+        Cheers Queers
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 max-w-7xl mx-auto">
         {CARDS.map((card) => (
@@ -85,7 +85,7 @@ const DamageSection = () => {
         ))}
       </div>
       <p className="mt-8 md:mt-12 text-center text-base md:text-xl font-black uppercase text-primary-foreground max-w-3xl mx-auto leading-snug">
-        Every location is unique — check your specific hostel's itinerary before booking.
+        Every location does Pride differently — check your hostel's lineup before booking.
       </p>
     </section>
   );

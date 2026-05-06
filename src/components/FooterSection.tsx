@@ -34,8 +34,8 @@ const FooterSection = () => {
           ))}
         </div>
 
-        <p className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.3em] md:tracking-[0.4em] text-foreground/30">
-          © 2026 MAD MONKEY HOSTELS. ALL IN SINCE DAY ONE.
+        <p className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.3em] md:tracking-[0.4em] text-foreground/60">
+          © 2026 MAD MONKEY HOSTELS. CHEERS QUEERS — ALL IN, ALL PRIDE.
         </p>
       </div>
     </footer>
