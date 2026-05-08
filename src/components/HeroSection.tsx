@@ -17,7 +17,7 @@ const HeroSection = () => {
         <img
           src={prideLogo}
           alt="Happy Pride Month"
-          className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl -mt-4 md:-mt-6 -mb-4 md:-mb-8 z-10 drop-shadow-lg md:mx-auto md:self-center"
+          className="w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mt-4 md:-mt-6 -mb-4 md:-mb-8 z-10 drop-shadow-lg md:mx-auto md:self-center"
         />
         <p className="text-[13px] md:text-2xl font-bold mb-6 md:mb-10 max-w-xl leading-relaxed z-10 text-white">
           Hostel halls at 3AM,<br />
