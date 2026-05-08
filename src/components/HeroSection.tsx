@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="flex-1 px-5 pt-2 pb-6 md:p-12 flex flex-col justify-center items-start border-b-4 md:border-b-0 md:border-r-4 border-divider relative" style={{ backgroundColor: '#FF3D8B' }}>
         <img src={madMonkeyLogo} alt="Mad Monkey" className="w-28 md:w-40 mb-3 md:mb-4 z-10" style={{ filter: 'drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white)' }} />
         <div className="mb-0 inline-flex items-center gap-2 bg-primary text-primary-foreground font-black uppercase px-4 py-2 text-xs md:text-lg border-2 border-primary -rotate-2 z-20 rounded-sm" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>
-          All June — 2026
+          June 6th
         </div>
         <img
           src={prideLogo}
