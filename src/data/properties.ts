@@ -33,6 +33,6 @@ export const PROPERTIES: Property[] = [
   { id: 'th-chiang', name: 'Chiang Mai', country: 'Thailand', url: 'https://madmonkeyhostels.com/tours-events/pride-month-event-mad-monkey-chiang-mai' },
   { id: 'th-pai', name: 'Pai', country: 'Thailand', url: 'https://madmonkeyhostels.com/tours-events/pride-month-event-mad-monkey-pai' },
   { id: 'th-phuket', name: 'Phuket', country: 'Thailand', url: 'https://madmonkeyhostels.com/tours-events/pride-month-event-mad-monkey-phuket' },
-  { id: 'vn-hanoi', name: 'Hanoi', country: 'Vietnam', url: 'https://madmonkeyhostels.com/tours-events/pride-month-event-mad-monkey-hanoi' },
+  { id: 'vn-hanoi', name: 'Hanoi', country: 'Vietnam', url: 'https://madmonkeyhostels.com/tours-events/new-york-city-disco-hanoi-pride-party' },
   { id: 'vn-hoian', name: 'Hoi An', country: 'Vietnam', url: 'https://madmonkeyhostels.com/tours-events/pride-month-event-mad-monkey-hoi-an' },
 ];
